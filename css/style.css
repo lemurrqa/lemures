@@ -428,6 +428,9 @@ h1, h2, h3, h4, h5, h6 {
     .portfolio__image_items:nth-child(2) {
       margin-bottom: 0; }
     .portfolio__image_items a {
+      -webkit-transition: all 0.5s ease 0s;
+      -o-transition: all 0.5s ease 0s;
+      transition: all 0.5s ease 0s;
       -webkit-animation: fade-in .4s ease;
       animation: fade-in .4s ease;
       max-height: 282px;
@@ -436,9 +439,6 @@ h1, h2, h3, h4, h5, h6 {
         margin-right: 15px;
         margin-left: 0px; }
       .portfolio__image_items a:hover {
-        -webkit-transition: all 0.5s ease 0s;
-        -o-transition: all 0.5s ease 0s;
-        transition: all 0.5s ease 0s;
         opacity: 0.8; }
     .portfolio__image_items img {
       width: 100%;
